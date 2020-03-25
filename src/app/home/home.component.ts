@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, FormControl, Validators } from '@angular/forms';
-import { ActivatedRoute, Router } from '@angular/router';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'home-app-root',
@@ -14,5 +14,5 @@ export class HomeComponent implements OnInit{
 
   jumpUrlMethod() {
     this.router.navigateByUrl('/login')
-  }
+  } 
 }
