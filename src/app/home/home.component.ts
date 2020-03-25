@@ -15,4 +15,6 @@ export class HomeComponent implements OnInit{
   jumpUrlMethod() {
     this.router.navigateByUrl('/login')
   } 
+
+  test(){}
 }
